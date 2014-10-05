@@ -8,6 +8,7 @@ url: "http://2headedsquirrel.com" # the base hostname & protocol for your site
 twitter_username: 2headedsquirl
 github_username:  reustonium
 
+exclude: ["2hs.sublime-project", "Gemfile", "s3-website.yml"]
 # Build settings
 markdown: kramdown
 highlighter: rogue

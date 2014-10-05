@@ -2,25 +2,41 @@
 <html>
   {% include head.html %}
   <body>
-  	<div class="container">
-<!-- 	    {% include header.html %}
-	    {{ content }}
-	    {% include footer.html %} -->
-	    <div class="col-md-4">
-	    	<div class="col-sm-12">LOGO</div>
-		  	<div class="col-md-12 visible-md-block visible-lg-block">BLURB</div>
-		  	<div class="col-sm-12 visible-md-block visible-lg-block">SOCIAL</div>
+  	<div class="container-fluid">
+  		<div class="top-buffer"></div>
+	    <div class="col-md-3"> <!-- LeftSideBar -->
+	    	<div class="col-sm-12">
+	    		<!-- LOGO -->
+	    		<img src="http://placehold.it/140x140" class="center-block img-circle">
+	    	</div>
+		  	<div class="col-md-12 visible-md-block visible-lg-block">
+		  		<!-- BLURB -->
+		  		<p>2 headed squirl is a tip of the hat to the nexus of my interest in video games.
+		  		Zack McCracken and the Alien Mindbenders included a hungry 2 headed squirrel on
+		  		Mount Rainier.  A mountain I love.
+		  		</p>
+		  	</div>
+		  	<div class="col-sm-12 visible-md-block visible-lg-block">
+		  		<!-- SOCIAL -->
+		  		<span class="glyphicon glyphicon-search"></span>
+		  		<span class="glyphicon glyphicon-glass"></span>
+		  		<span class="glyphicon glyphicon-user"></span>
+		  		<span class="glyphicon glyphicon-tint"></span>
+		  	</div>
+	    </div> <!-- LeftSideBar -->
+
+	    <div class="col-md-9">
+	    	<div class="col-sm-12">{% include header.html %}</div>
+	    	<div class="col-sm-12 visible-sm-block">
+	    		<!-- SOCIAL -->
+		  		<span class="glyphicon glyphicon-search"></span>
+		  		<span class="glyphicon glyphicon-glass"></span>
+		  		<span class="glyphicon glyphicon-user"></span>
+		  		<span class="glyphicon glyphicon-tint"></span>
+	    	</div>
+	 	 		<div class="col-sm-12">{{content}}</div>
+	  		<div class="col-sm-12 center-block">{% include footer.html%}</div>
 	    </div>
-
-	    <div class="col-md-8">
-	    	<div class="col-sm-12">NAV</div>
-	    	<div class="col-sm-12 visible-sm-block">SOCIAL</div>
-	 	 		<div class="col-sm-12">POSTS</div>
-	  		<div class="col-sm-12">FOOTER</div>
-	    </div>
-
-
-
-	  </div>
+	  </div> <!-- container -->
   </body>
 </html>
