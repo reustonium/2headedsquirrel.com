@@ -1,14 +1,55 @@
-# Site settings
-title: 2 Headed Squirrel
-email: andrew.ruestow@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is where the stuff happens, 2 Headed Squirrel stuff!
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://2headedsquirrel.com" # the base hostname & protocol for your site
-twitter_username: 2headedsquirl
-github_username:  reustonium
+# Site wide configuration
 
-exclude: ["2hs.sublime-project", "Gemfile", "s3-website.yml"]
-# Build settings
-markdown: kramdown
+title:            Site Title
+locale:           en_US
+url:              http://localhost:4000
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
 highlighter: rogue
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Your Name
+  avatar: bio-photo.jpg
+  bio: "Describe your self."
+  email: 
+  disqus-shortname: 
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: #username
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
