@@ -2,8 +2,7 @@
 
 title:            2 Headed Squirrel
 locale:           en_US
-#url:              http://2headedsquirrel.com
-url:              http://localhost:4000
+url:              #http://2headedsquirrel.com
 
 # Jekyll configuration
 
@@ -26,16 +25,16 @@ kramdown:
 
 # Site owner
 owner:
-  name: Andy Ruestow
+  name: 2 Headed Squirrel
   avatar: bio-photo.jpg
   bio: "Like all 2 headed squirrels I love being on Mount Rainier, and hassling Zak McKracken"
   email: 
   disqus-shortname: 
-  twitter: reustonium
+  twitter: 2headedsquril
   facebook: #username
   google:
     plus: #username
-    analytics: 
+    analytics: <%= ENV['GOOGLE_ANALYTICS'] %>
     verify: 
     ad-client: 
     ad-slot: 

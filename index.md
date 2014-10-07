@@ -1,9 +1,8 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "A place for game dev ideas for 2 headed squirrel."
+tags: [gamedev, unity3d, game, gamedesign, ludum dare]
 image:
-  feature: TwoHeadedSquirrel.jpg
+  feature: 2hs.png
   credit: LucasArts
-  <!-- creditlink: --> 
 ---

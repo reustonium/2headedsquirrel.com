@@ -1,14 +1,12 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
+andy_ruestow:
+  name: Andy Ruestow
+  web: http://reustonium.com
+  email: andrew.ruestow@gmail.com
+  bio: "I'm a guy who does stuff, from time to time."
   avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
+  twitter: reustonium
 
 cornelius_fiddlebone:
   name: Cornelius Fiddlebone
