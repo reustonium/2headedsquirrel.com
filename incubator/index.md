@@ -17,3 +17,5 @@ image:
 ## 2D Action Platformer
 * a toy to juice up
 * uses bleepbox
+* 8-bit style
+* built with speed run's in mind
