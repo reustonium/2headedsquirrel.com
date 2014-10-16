@@ -23,7 +23,7 @@ I put together a little animation finite state machine with some simple tweening
 
 Here is the simple code snippet I used to toggle the UI with the 'TAB' key.
 
-{% highlight cs %}
+{% highlight csharp %}
 public class Slider : MonoBehaviour
 {
 	public Animator anim;
