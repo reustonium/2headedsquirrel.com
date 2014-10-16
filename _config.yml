@@ -8,7 +8,7 @@ url:              http://2headedsquirrel.com
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: rogue
+highlighter: pygments #rogue
 sass:
   sass_dir: _sass
   style: compressed
